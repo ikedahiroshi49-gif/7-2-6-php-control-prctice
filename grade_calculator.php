@@ -26,6 +26,8 @@
     $fugoukaku = 0;
     //平均点
     $ave = 0;
+    //人数カウント
+    $total_man = count($students);
     //個別の成績表示(ループ制御)
     foreach ($students as $students) {
         echo $students["name"] . ':';
@@ -59,11 +61,12 @@
     }
     //統計情報表示
     
+
     echo "<h2>統計情報</h2>";
 
     echo '合格者数:' . $goukaku . '人<br>';
     echo '不合格者数:' . $fugoukaku . '人<br>';
-    echo '平均点' . $ave = $ave / ($goukaku + $fugoukaku) . '点<br>';
+    echo '平均点' . $average = $ave / $total_man . '点<br>';
     ?>
 </body>
 
