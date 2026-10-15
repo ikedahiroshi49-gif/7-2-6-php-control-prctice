@@ -63,7 +63,7 @@
 
     echo '合格者数:' . $goukaku . '人<br>';
     echo '不合格者数:' . $fugoukaku . '人<br>';
-    echo '平均点' . $ave = $ave / ($goukaku + $fugoukaku) . '点';
+    echo '平均点' . $ave = $ave / ($goukaku + $fugoukaku) . '点<br>';
     ?>
 </body>
 
